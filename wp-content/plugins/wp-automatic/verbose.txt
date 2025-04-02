@@ -1,0 +1,164 @@
+*   Trying 105.203.200.34:443...
+* TCP_NODELAY set
+* Connected to www.tiktok.com (105.203.200.34) port 443 (#0)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /Applications/MAMP/Library/OpenSSL/cert.pem
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use h2
+* Server certificate:
+*  subject: CN=*.tiktok.com
+*  start date: Dec 13 00:00:00 2021 GMT
+*  expire date: Jan 13 23:59:59 2023 GMT
+*  subjectAltName: host "www.tiktok.com" matched cert's "*.tiktok.com"
+*  issuer: C=US; O=DigiCert Inc; CN=RapidSSL TLS DV RSA Mixed SHA256 2020 CA-1
+*  SSL certificate verify ok.
+* Using HTTP2, server supports multi-use
+* Connection state changed (HTTP/2 confirmed)
+* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+* Using Stream ID: 1 (easy handle 0x7fbe4905a400)
+> GET /@aboflah HTTP/2
+Host: www.tiktok.com
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.1610.103 Safari/537.36
+accept: */*
+referer: http://www.bing.com/
+
+* Connection state changed (MAX_CONCURRENT_STREAMS == 100)!
+< HTTP/2 200 
+< server: nginx
+< content-type: text/html; charset=utf-8
+< x-tt-logid: 2022121114202301021709519907E8329B
+< access-control-allow-credentials: true
+< link: <https://p16-sign-sg.tiktokcdn.com/tos-alisg-p-0037/fc070e509527440282bb47f412caa768_1670600070~tplv-dmt-logom:tos-alisg-i-0068/29af93f6469d46e5b2bdc145e147e7e3.image?x-expires=1670788800&x-signature=5F9ErOhC6InoBxZni%2BJKwaEhFvk%3D>; rel=preload; as=image, <https://lf16-tiktok-web.ttwstatic.com/obj/tiktok-web-us/tiktok/webapp/main/webapp-desktop/runtime.44609e69875ed5805444.js>; rel=preload; as=script, <https://lf16-tiktok-web.ttwstatic.com/obj/tiktok-web-us/tiktok/webapp/main/webapp-desktop/es-polyfill.00f62c2bd39272f135b6.js>; rel=preload; as=script, <https://lf16-tiktok-web.ttwstatic.com/obj/tiktok-web-us/tiktok/webapp/main/webapp-desktop/npm-596046b7.66956e5db9de9916b597.js>; rel=preload; as=script, <https://lf16-tiktok-web.ttwstatic.com/obj/tiktok-web-us/tiktok/webapp/main/webapp-desktop/npm-d801507b.0a2820c9068b3aecb94e.js>; rel=preload; as=script, <https://lf16-tiktok-web.ttwstatic.com/obj/tiktok-web-us/tiktok/webapp/main/webapp-desktop/npm-ea8a6886.ba8e7573530f23a3b716.js>; rel=preload; as=script, <https://lf16-tiktok-web.ttwstatic.com/obj/tiktok-web-us/tiktok/webapp/main/webapp-desktop/npm-b3a903c8.726c4dd0a5c58c06ac18.js>; rel=preload; as=script, <https://lf16-tiktok-web.ttwstatic.com/obj/tiktok-web-us/tiktok/webapp/main/webapp-desktop/npm-74d9c565.feafe07cabbfd1b1dfee.js>; rel=preload; as=script, <https://lf16-tiktok-web.ttwstatic.com/obj/tiktok-web-us/tiktok/webapp/main/webapp-desktop/npm-7842561a.75388809c0b96ba92ccc.js>; rel=preload; as=script, <https://lf16-tiktok-web.ttwstatic.com/obj/tiktok-web-us/tiktok/webapp/main/webapp-desktop/vendor.d2d166232ca962fd6892.js>; rel=preload; as=script, <https://lf16-tiktok-web.ttwstatic.com/obj/tiktok-web-us/tiktok/webapp/main/webapp-desktop/webapp-desktop.67619d853277b7b2b22a.js>; rel=preload; as=script
+< feature-policy: microphone 'none'; geolocation 'none'
+< referrer-policy: strict-origin-when-cross-origin
+< x-xss-protection: 1; mode=block
+< x-frame-options: SAMEORIGIN
+< x-content-type-options: nosniff
+< x-download-options: noopen
+< strict-transport-security: max-age=31536000
+< content-security-policy: script-src 'unsafe-inline' blob: https: 'unsafe-eval';frame-src *.tiktok.com accounts.google.com www.google.com recaptcha.google.com www.facebook.com *.kakao.com lf16-web.tiktokcdn.com assets.braintreegateway.com appleid.apple.com access.line.me api.twitter.com h.online-metrix.net
+< x-ms-token: PGWzq0LFHtGxuzNShaV24TyYDKQWLQyLXII1AdKmQjfVSmhhNPS54dgdA31OzCSL-hZYIhFWkUI3pmDjW994zltfQSkINVpZXYsPXu8vt0ftjJuWFTGrQJ19Cg==
+< x-tt-trace-host: 01e9e1d84a6978b08a09b9f87c895302ec05b7d8e66d3f8fe4fea9b220ce1a98b6594e722c377a1c287ed970b8ff613527b8cb28b5812c8919b2af05c8e598f0cd639597b14ad446e5a50e97803edeae2f88ca1981fcec9237d64437cad3afb8c5
+< x-origin-response-time: 472,23.45.233.39
+< x-akamai-request-id: 14ed4e66.6ab12896
+< x-akamai-transformed: 9 - 0 pmb=mTOE,2
+< expires: Sun, 11 Dec 2022 14:20:24 GMT
+< cache-control: max-age=0, no-cache, no-store
+< pragma: no-cache
+< date: Sun, 11 Dec 2022 14:20:24 GMT
+< x-cache: TCP_MISS from a105-203-200-30.deploy.akamaitechnologies.com (AkamaiGHost/10.10.2-45048955) (-)
+* Added cookie ttwid="1%7CYua17q0a6TVWy7_nLhMWauwYN9Q70Xvi4SQBD7PHhTU%7C1670768423%7C5adcdd51db8ea06d0c1fe977dc0a8a05581255eb87294a27b2ffa5be39fc75bf" for domain tiktok.com, path /, expire 1702304423
+< set-cookie: ttwid=1%7CYua17q0a6TVWy7_nLhMWauwYN9Q70Xvi4SQBD7PHhTU%7C1670768423%7C5adcdd51db8ea06d0c1fe977dc0a8a05581255eb87294a27b2ffa5be39fc75bf; Domain=.tiktok.com; Path=/; Expires=Mon, 11 Dec 2023 14:20:23 GMT; HttpOnly
+* Added cookie tt_csrf_token="C7O74woM-I2bXj3OgYdj3x0cqpQnrsohWPw8" for domain tiktok.com, path /, expire 0
+< set-cookie: tt_csrf_token=C7O74woM-I2bXj3OgYdj3x0cqpQnrsohWPw8; path=/; domain=.tiktok.com; samesite=lax; secure; httponly
+* Added cookie tt_chain_token="xpzweEBFhlzXz7BivIAp6Q==" for domain tiktok.com, path /, expire 1670790024
+< set-cookie: tt_chain_token=xpzweEBFhlzXz7BivIAp6Q==; path=/; expires=Sun, 11 Dec 2022 20:20:24 GMT; domain=.tiktok.com; secure; httponly
+* Added cookie msToken="PGWzq0LFHtGxuzNShaV24TyYDKQWLQyLXII1AdKmQjfVSmhhNPS54dgdA31OzCSL-hZYIhFWkUI3pmDjW994zltfQSkINVpZXYsPXu8vt0ftjJuWFTGrQJ19Cg==" for domain tiktok.com, path /, expire 1671632423
+< set-cookie: msToken=PGWzq0LFHtGxuzNShaV24TyYDKQWLQyLXII1AdKmQjfVSmhhNPS54dgdA31OzCSL-hZYIhFWkUI3pmDjW994zltfQSkINVpZXYsPXu8vt0ftjJuWFTGrQJ19Cg==; Path=/; Domain=tiktok.com; Expires=Wed, 21 Dec 2022 14:20:23 GMT; Secure; SameSite=None
+< x-cache-remote: TCP_MISS from a23-45-233-39.deploy.akamaitechnologies.com (AkamaiGHost/10.10.3-45298580) (-)
+< x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+< server-timing: cdn-cache; desc=MISS, edge; dur=141, origin; dur=472
+< server-timing: inner; dur=469
+< x-parent-response-time: 599,105.203.200.30
+* Added cookie ak_bmsc="FDCE9B526DB0842C68C0213B794B653E~000000000000000000000000000000~YAAQHsjLaTgWUnuEAQAATfWOARKRoQr33oYhkNMsNipy0YHOk5Uj4/emYWVOSpSM2PlF0TIR5C05q9W+1rajZ9vp/N8L9zbnaMEfEpYq6wzhM90fYnqlXEAQORz5Z0L9mfYcjqd4k1pbCA052tpRq10WyY3Il9yNnxQTDZVHbQrw29Nv2GKVJ7brQKl93gHLwJhPMtgTwwdAU19FuUAfZt0aKWxgIzRjHbjm5UpEWm4aKH/KFAGF6Y7TO6eVVCRgIBPQ4uWP5c8dQ0FAPGPNZkT94WJwiSwAWSWT7pGkjcI55cRRu6D2NNrJffA5oJ6G0uEjlcGf7hT4cZxob2QsAwOO6VXwZlFB0tfDvDb56QRa+O6x4JjQAmZoVvlUAsCph26Cau7X47a1pw==" for domain tiktok.com, path /, expire 1670775623
+< set-cookie: ak_bmsc=FDCE9B526DB0842C68C0213B794B653E~000000000000000000000000000000~YAAQHsjLaTgWUnuEAQAATfWOARKRoQr33oYhkNMsNipy0YHOk5Uj4/emYWVOSpSM2PlF0TIR5C05q9W+1rajZ9vp/N8L9zbnaMEfEpYq6wzhM90fYnqlXEAQORz5Z0L9mfYcjqd4k1pbCA052tpRq10WyY3Il9yNnxQTDZVHbQrw29Nv2GKVJ7brQKl93gHLwJhPMtgTwwdAU19FuUAfZt0aKWxgIzRjHbjm5UpEWm4aKH/KFAGF6Y7TO6eVVCRgIBPQ4uWP5c8dQ0FAPGPNZkT94WJwiSwAWSWT7pGkjcI55cRRu6D2NNrJffA5oJ6G0uEjlcGf7hT4cZxob2QsAwOO6VXwZlFB0tfDvDb56QRa+O6x4JjQAmZoVvlUAsCph26Cau7X47a1pw==; Domain=.tiktok.com; Path=/; Expires=Sun, 11 Dec 2022 16:20:23 GMT; Max-Age=7199; HttpOnly
+* Added cookie bm_mi="479E878565EF907C2194B3D69DEEA306~YAAQHsjLaTkWUnuEAQAATfWOARKaKcjTFBD+Xbx8Y4jM7rSJ36zSKgybLtwSP4+b1Ch9aUjwiVOf0U8UdtIfp6SGEokLLk/bsuTY7rb+q+v89AypDzUQl95mp8Dtxc47LcGsHSW5sw8IBcIlae6/PmSlpVxsVOTqZvjHrWdcozDIorXhLtIosxYzjHRljRF3lmOLfCoP7ISM0vxbP1MKW7tox9pExydTVMF6otYyt0BqQxmighrf4Akrp3ueN0OYzLAAXEyWjKgIW71wDV1Pg4ZExl4ZrRefg1+M/SrGTA/M3qAvBAcvQTU2Rhj2nNr2pxtk5MA=~1" for domain tiktok.com, path /, expire 1
+< set-cookie: bm_mi=479E878565EF907C2194B3D69DEEA306~YAAQHsjLaTkWUnuEAQAATfWOARKaKcjTFBD+Xbx8Y4jM7rSJ36zSKgybLtwSP4+b1Ch9aUjwiVOf0U8UdtIfp6SGEokLLk/bsuTY7rb+q+v89AypDzUQl95mp8Dtxc47LcGsHSW5sw8IBcIlae6/PmSlpVxsVOTqZvjHrWdcozDIorXhLtIosxYzjHRljRF3lmOLfCoP7ISM0vxbP1MKW7tox9pExydTVMF6otYyt0BqQxmighrf4Akrp3ueN0OYzLAAXEyWjKgIW71wDV1Pg4ZExl4ZrRefg1+M/SrGTA/M3qAvBAcvQTU2Rhj2nNr2pxtk5MA=~1; Domain=.tiktok.com; Path=/; Expires=Sun, 11 Dec 2022 14:20:24 GMT; Max-Age=0; Secure
+< 
+* Connection #0 to host www.tiktok.com left intact
+* Found bundle for host www.tiktok.com: 0x7fbe47e10cc0 [can multiplex]
+* Re-using existing connection! (#0) with host www.tiktok.com
+* Connected to www.tiktok.com (105.203.200.34) port 443 (#0)
+* Using Stream ID: 3 (easy handle 0x7fbe4905a400)
+> GET /oembed?url=https://www.tiktok.com/@aboflah/video/7175074815362059522 HTTP/2
+Host: www.tiktok.com
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.1610.103 Safari/537.36
+accept: */*
+referer: http://www.bing.com/
+cookie: tt_chain_token=xpzweEBFhlzXz7BivIAp6Q==; tt_csrf_token=C7O74woM-I2bXj3OgYdj3x0cqpQnrsohWPw8; ak_bmsc=FDCE9B526DB0842C68C0213B794B653E~000000000000000000000000000000~YAAQHsjLaTgWUnuEAQAATfWOARKRoQr33oYhkNMsNipy0YHOk5Uj4/emYWVOSpSM2PlF0TIR5C05q9W+1rajZ9vp/N8L9zbnaMEfEpYq6wzhM90fYnqlXEAQORz5Z0L9mfYcjqd4k1pbCA052tpRq10WyY3Il9yNnxQTDZVHbQrw29Nv2GKVJ7brQKl93gHLwJhPMtgTwwdAU19FuUAfZt0aKWxgIzRjHbjm5UpEWm4aKH/KFAGF6Y7TO6eVVCRgIBPQ4uWP5c8dQ0FAPGPNZkT94WJwiSwAWSWT7pGkjcI55cRRu6D2NNrJffA5oJ6G0uEjlcGf7hT4cZxob2QsAwOO6VXwZlFB0tfDvDb56QRa+O6x4JjQAmZoVvlUAsCph26Cau7X47a1pw==; msToken=PGWzq0LFHtGxuzNShaV24TyYDKQWLQyLXII1AdKmQjfVSmhhNPS54dgdA31OzCSL-hZYIhFWkUI3pmDjW994zltfQSkINVpZXYsPXu8vt0ftjJuWFTGrQJ19Cg==; ttwid=1%7CYua17q0a6TVWy7_nLhMWauwYN9Q70Xvi4SQBD7PHhTU%7C1670768423%7C5adcdd51db8ea06d0c1fe977dc0a8a05581255eb87294a27b2ffa5be39fc75bf
+
+< HTTP/2 200 
+< server: nginx
+< content-type: application/json; charset=utf-8
+< x-tt-logid: 2022121114202401021712016619EB8240
+< x-xss-protection: 1; mode=block
+< x-frame-options: SAMEORIGIN
+< x-content-type-options: nosniff
+< x-download-options: noopen
+< strict-transport-security: max-age=31536000
+< server-timing: inner; dur=97
+< x-tt-trace-host: 01e9e1d84a6978b08a09b9f87c895302ecbc4864250682b06034f977b2bb11d8635720d654efeff153238f7d6574058e8d2f92ec72d5846d03ca178668de22c2bfbbd639690f2e86f6ac4db0af2c0f7e33
+< access-control-allow-origin: *
+< expires: Sun, 11 Dec 2022 14:20:25 GMT
+< cache-control: max-age=0, no-cache, no-store
+< pragma: no-cache
+< date: Sun, 11 Dec 2022 14:20:25 GMT
+< content-length: 1499
+< x-cache: TCP_MISS from a105-203-200-30.deploy.akamaitechnologies.com (AkamaiGHost/10.10.2-45048955) (-)
+< x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+< server-timing: cdn-cache; desc=MISS, edge; dur=1, origin; dur=226
+< x-origin-response-time: 226,105.203.200.30
+< x-akamai-request-id: 6ab12d59
+< 
+* Connection #0 to host www.tiktok.com left intact
+*   Trying 104.76.220.97:443...
+* TCP_NODELAY set
+* Connected to p16-sign-sg.tiktokcdn.com (104.76.220.97) port 443 (#1)
+* ALPN, offering h2
+* ALPN, offering http/1.1
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+*   CAfile: /Applications/MAMP/Library/OpenSSL/cert.pem
+  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* ALPN, server accepted to use h2
+* Server certificate:
+*  subject: CN=*.tiktokcdn.com
+*  start date: May 16 00:00:00 2022 GMT
+*  expire date: May 31 23:59:59 2023 GMT
+*  subjectAltName: host "p16-sign-sg.tiktokcdn.com" matched cert's "*.tiktokcdn.com"
+*  issuer: C=US; O=DigiCert Inc; CN=RapidSSL TLS DV RSA Mixed SHA256 2020 CA-1
+*  SSL certificate verify ok.
+* Using HTTP2, server supports multi-use
+* Connection state changed (HTTP/2 confirmed)
+* Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+* Using Stream ID: 1 (easy handle 0x7fbe4905a400)
+> GET /tos-alisg-p-0037/75df7f2acaca4688aa5bcf87d333c9f5_1670577295~tplv-dmt-logom:tos-alisg-i-0068/e1fef1974d0444af8051d437d66b0e52.image?x-expires=1670788800&x-signature=bP9nTsLWMhKlQqVjTg0+2j9vsD8= HTTP/2
+Host: p16-sign-sg.tiktokcdn.com
+user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.1610.103 Safari/537.36
+accept: */*
+referer: http://p16-sign-sg.tiktokcdn.com
+
+* Connection state changed (MAX_CONCURRENT_STREAMS == 100)!
+< HTTP/2 200 
+< server: nginx
+< content-type: image/jpeg
+< content-length: 92438
+< imagex-fmt: jpeg2jpeg
+< last-modified: Fri, 09 Dec 2022 09:15:44 GMT
+< nw-session-id: 20221209091544010244049215251DC375p9ctd12df
+< nw-session-trace: 2022-12-09T09:15:44.444861453Z 266
+< x-bdcdn-cache-status: TCP_MISS
+< x-length: 92438
+< x-powered-by: ImageX
+< x-response-date: Fri, 09 Dec 2022 09:15:44 GMT
+< x-tt-logid: 20221209091544010244049215251DC375
+< x-tt-trace-host: 01225a44b37b165b152ed3671ba83329ff54b00545abbe7df15cc8a435856c1c46be96691403cc197a71d51c194b92390d3a73432f4f0d93521ed532174029dfd07004e54b93a1a835a8be2dbff83b7bcde0f755d60ef5f0f4eaad7dbd62f50e76eca77c6d1d0c4c3ba28cf04208a676dc
+< cache-control: max-age=31345113
+< date: Sun, 11 Dec 2022 14:20:25 GMT
+< x-cache: TCP_HIT from a104-76-220-93.deploy.akamaitechnologies.com (AkamaiGHost/10.10.2-45048955) (-)
+< akamai-mon-iucid-del: 971652
+< x-tt-trace-tag: id=16;cdn-cache=hit;type=static
+< server-timing: cdn-cache; desc=HIT, edge; dur=1
+< server-timing: inner; dur=272
+< timing-allow-origin: *
+< cross-origin-resource-policy: cross-origin
+< access-control-allow-origin: *
+< x-check-cacheable: YES
+< x-akamai-request-id: af9c0e81
+< 
+* Connection #1 to host p16-sign-sg.tiktokcdn.com left intact
