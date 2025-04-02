@@ -1,4 +1,5 @@
-Newspaper Template:
+##WP Newspaper Template
+/** Newspaper Template:
 ——
 DB MYSQL:
 select * from alpha_options WHERE option_name = 'siteurl' OR option_name = 'home';
@@ -67,3 +68,4 @@ DELETE FROM alpha_comments;
 ALTER TABLE alpha_comments AUTO_INCREMENT = 1;
 ALTER TABLE alpha_commentmeta AUTO_INCREMENT = 1;
 SET SQL_SAFE_UPDATES = 1;
+**/
